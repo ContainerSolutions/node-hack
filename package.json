@@ -1,0 +1,12 @@
+{
+  "name": "docker-node-hack",
+  "description": "a vulnerable node app for demos",
+  "version": "0.0.1",
+  "dependencies": {
+    "js-yaml": "<2.0.5",
+    "connect": ">3.0.0",
+    "serve-static": ">0.0.0",
+    "finalhandler": ">0.0.0",
+    "multiparty": ">0.0.0"
+  }
+}
